@@ -16,8 +16,8 @@ def send_message(twilio_number,user_number,message):
 
     client.messages.create(
         from_=user_number,
-        body=message,
-        to=twilio_number
+        to=twilio_number,
+        body=message
     )
 
 # # Create your views here.
