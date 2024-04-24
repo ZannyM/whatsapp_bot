@@ -88,20 +88,8 @@ def home(request):
 
 
 
-'''<QueryDict: {'SmsMessageSid': ['SM08cb5c43c59b20eec72619809b850441'], 'NumMedia': ['0'], 'ProfileName': ['🎀Zanny🎀'], 
-'MessageType': ['text'], 'SmsSid': ['SM08cb5c43c59b20eec72619809b850441'], 'WaId': ['27714470844'], 'SmsStatus': ['received'],
- 'Body': ['hi'], 'To': ['whatsapp:+14155238886'], 'NumSegments': ['1'], 'ReferralNumMedia': ['0'], 'MessageSid': 
- ['SM08cb5c43c59b20eec72619809b850441'], 'AccountSid': 
-['AC50e8612329ed35ea990f820b8a823ad6'], 'From': ['whatsapp:+27714470844'], 'ApiVersion': ['2010-04-01']}> '''
 
 
-''' imit (optional) - How many results to return. Must be between 1 and 30. Default is 1.
-[
-  {
-    "joke": "When putting cheese in a mousetrap, always leave room for the mouse."
-  }
-]
- '''
 
 
 
