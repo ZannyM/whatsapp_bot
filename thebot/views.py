@@ -8,7 +8,11 @@ from .jokes import get_joke
 from dotenv import load_dotenv
 import os
 
+##implementing the DRY Method
+# def send_message(twilio_number,user_number,message):
+#     client.messages.create(
 
+#     )
 # # Create your views here.
 @csrf_exempt
 def home(request):
@@ -28,7 +32,7 @@ def home(request):
 
         if the_Message.lower() in ['hey','hello','hi','hy','hei']:
             client.messages.create(
-                from_= TWILID_PHONE_NUMBER,
+                from_= f'whatsapp:{TWILID_PHONE_NUMBER}',
                 body= f"Hey  {Name}",
                 to=the_number
             )
